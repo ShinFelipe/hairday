@@ -8,6 +8,9 @@ import "./styles/global.css";
 import "./styles/form.css";
 import "./styles/schedule.css";
 
-import dayjs from "dayjs";
+// JS
+import "./modules/form/submit";
+import "./modules/form/date-change";
 
-console.log(dayjs().format("DD/MM HH:mm"));
+import "./modules/schedules-load";
+import "./modules/schedules/cancel";
